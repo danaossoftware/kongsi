@@ -14,7 +14,7 @@ if ($results && $results->num_rows > 0) {
 		return;
 	}
 	session_start();
-	$_SESSION["kongsi_user_id"] = $row["id"];
+	$_SESSION["kongsicargo_user_id"] = $row["id"];
 	echo 0;
 } else {
 	echo -1;

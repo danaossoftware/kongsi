@@ -1,4 +1,4 @@
 <?php
 include 'db.php';
-$user = $_POST["user"];
-$c->query("SELECT * FROM users WHERE name LIKE '%" . $user . "%' OR email LIKE '%" . $user . "%'");
+$keyword = $_POST["keyword"];
+$c->query("SELECT * FROM users WHERE name LIKE '%" . $keyword . "%' OR email LIKE '%" . $keyword . "%'");

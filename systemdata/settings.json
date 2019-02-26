@@ -1,1 +1,173 @@
-{"settings": {"prices": {"pricePerKM": 2000}}}
+{
+  "settings": {
+    "prefixes": {
+      "tsel": [
+        {"prefix": "0811"},
+        {"prefix": "0812"},
+        {"prefix": "0813"},
+        {"prefix": "0821"},
+        {"prefix": "0822"},
+        {"prefix": "0823"},
+        {"prefix": "0852"},
+        {"prefix": "0853"},
+        {"prefix": "0851"}
+      ],
+      "indosat": [
+        {"prefix": "0814"},
+        {"prefix": "0815"},
+        {"prefix": "0816"},
+        {"prefix": "0855"},
+        {"prefix": "0856"},
+        {"prefix": "0857"},
+        {"prefix": "0858"}
+      ],
+      "xl": [
+        {"prefix": "0817"},
+        {"prefix": "0818"},
+        {"prefix": "0819"},
+        {"prefix": "0859"},
+        {"prefix": "0877"},
+        {"prefix": "0878"}
+      ],
+      "three": [
+        {"prefix": "0895"},
+        {"prefix": "0896"},
+        {"prefix": "0897"},
+        {"prefix": "0898"},
+        {"prefix": "0899"}
+      ],
+      "smartfren": [
+        {"prefix": "0881"},
+        {"prefix": "0882"},
+        {"prefix": "0883"},
+        {"prefix": "0884"},
+        {"prefix": "0885"},
+        {"prefix": "0886"},
+        {"prefix": "0887"},
+        {"prefix": "0888"},
+        {"prefix": "0889"}
+      ],
+      "axis": [
+        {"prefix": "0838"},
+        {"prefix": "0831"},
+        {"prefix": "0832"},
+        {"prefix": "0833"}
+      ]
+    },
+    "prices": {
+      "pricePerKM": 2000,
+      "topup": {
+        "xl": [
+          {
+            "balance": 5000,
+            "price": 6500
+          },
+          {
+            "balance": 10000,
+            "price": 10500
+          },
+          {
+            "balance": 20000,
+            "price": 20500
+          },
+          {
+            "balance": 50000,
+            "price": 50500
+          },
+          {
+            "balance": 100000,
+            "price": 100500
+          }
+        ],
+        "tsel": [
+          {
+            "balance": 5000,
+            "price": 6500
+          },
+          {
+            "balance": 10000,
+            "price": 10500
+          },
+          {
+            "balance": 20000,
+            "price": 20500
+          },
+          {
+            "balance": 50000,
+            "price": 50500
+          },
+          {
+            "balance": 100000,
+            "price": 100500
+          }
+        ],
+        "indosat": [
+          {
+            "balance": 5000,
+            "price": 6500
+          },
+          {
+            "balance": 10000,
+            "price": 10500
+          },
+          {
+            "balance": 20000,
+            "price": 20500
+          },
+          {
+            "balance": 50000,
+            "price": 50500
+          },
+          {
+            "balance": 100000,
+            "price": 100500
+          }
+        ],
+        "smartfren": [
+          {
+            "balance": 5000,
+            "price": 6500
+          },
+          {
+            "balance": 10000,
+            "price": 10500
+          },
+          {
+            "balance": 20000,
+            "price": 20500
+          },
+          {
+            "balance": 50000,
+            "price": 50500
+          },
+          {
+            "balance": 100000,
+            "price": 100500
+          }
+        ],
+        "three": [
+          {
+            "balance": 5000,
+            "price": 6500
+          },
+          {
+            "balance": 10000,
+            "price": 10500
+          },
+          {
+            "balance": 20000,
+            "price": 20500
+          },
+          {
+            "balance": 50000,
+            "price": 50500
+          },
+          {
+            "balance": 100000,
+            "price": 100500
+          }
+        ]
+      }
+    }
+  }
+}

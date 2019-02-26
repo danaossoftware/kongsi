@@ -13,6 +13,7 @@ if ($results && $results->num_rows > 0) {
 		echo -3;
 		return;
 	}
+	session_id("kongsicargo");
 	session_start();
 	$_SESSION["kongsicargo_user_id"] = $row["id"];
 	$params = session_get_cookie_params();

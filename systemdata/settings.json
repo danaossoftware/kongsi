@@ -60,111 +60,111 @@
         "xl": [
           {
             "balance": 5000,
-            "price": 6500
+            "price": 6501
           },
           {
             "balance": 10000,
-            "price": 10500
+            "price": 10501
           },
           {
             "balance": 20000,
-            "price": 20500
+            "price": 20501
           },
           {
             "balance": 50000,
-            "price": 50500
+            "price": 50501
           },
           {
             "balance": 100000,
-            "price": 100500
+            "price": 100501
           }
         ],
         "tsel": [
           {
             "balance": 5000,
-            "price": 6500
+            "price": 6502
           },
           {
             "balance": 10000,
-            "price": 10500
+            "price": 10502
           },
           {
             "balance": 20000,
-            "price": 20500
+            "price": 20502
           },
           {
             "balance": 50000,
-            "price": 50500
+            "price": 50502
           },
           {
             "balance": 100000,
-            "price": 100500
+            "price": 100502
           }
         ],
         "indosat": [
           {
             "balance": 5000,
-            "price": 6500
+            "price": 6503
           },
           {
             "balance": 10000,
-            "price": 10500
+            "price": 10503
           },
           {
             "balance": 20000,
-            "price": 20500
+            "price": 20503
           },
           {
             "balance": 50000,
-            "price": 50500
+            "price": 50503
           },
           {
             "balance": 100000,
-            "price": 100500
+            "price": 100503
           }
         ],
         "smartfren": [
           {
             "balance": 5000,
-            "price": 6500
+            "price": 6504
           },
           {
             "balance": 10000,
-            "price": 10500
+            "price": 10504
           },
           {
             "balance": 20000,
-            "price": 20500
+            "price": 20504
           },
           {
             "balance": 50000,
-            "price": 50500
+            "price": 50504
           },
           {
             "balance": 100000,
-            "price": 100500
+            "price": 100504
           }
         ],
         "three": [
           {
             "balance": 5000,
-            "price": 6500
+            "price": 6505
           },
           {
             "balance": 10000,
-            "price": 10500
+            "price": 10505
           },
           {
             "balance": 20000,
-            "price": 20500
+            "price": 20505
           },
           {
             "balance": 50000,
-            "price": 50500
+            "price": 50505
           },
           {
             "balance": 100000,
-            "price": 100500
+            "price": 100505
           }
         ]
       }

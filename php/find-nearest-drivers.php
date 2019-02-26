@@ -6,9 +6,7 @@ $results = $c->query("SELECT * SQRT(POW(69.1 * (latitude - -7.4048587), 2) + POW
 $users = [];
 if ($results && $results->num_rows > 0) {
 	while ($row = $results->fetch_assoc()) {
-		if ($row["position"] == 1) {
-			array_push($users, $row);
-		}
+		array_push($users, $row);
 	}
 }
 echo json_encode($users);

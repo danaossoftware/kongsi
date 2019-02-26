@@ -79,6 +79,28 @@
             "price": 100501
           }
         ],
+        "axis": [
+          {
+            "balance": 5000,
+            "price": 6505
+          },
+          {
+            "balance": 10000,
+            "price": 10505
+          },
+          {
+            "balance": 20000,
+            "price": 20505
+          },
+          {
+            "balance": 50000,
+            "price": 50505
+          },
+          {
+            "balance": 100000,
+            "price": 100505
+          }
+        ],
         "tsel": [
           {
             "balance": 5000,

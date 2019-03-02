@@ -3,7 +3,8 @@ include 'db.php';
 session_id("kongsicargo");
 session_start();
 $userId = $_SESSION["kongsicargo_user_id"];
-$name = $_POST["name"];
+$firstName = $_POST["first_name"];
+$lastName = $_POST["last_name"];
 $email = $_POST["email"];
 $phone = $_POST["phone"];
 $address = $_POST["address"];
@@ -18,5 +19,5 @@ if ($results && $results->num_rows > 0) {
 	echo -2;
 	return;
 }
-$c->query("UDPATE users SET name='" . $name . "', email='" . $email . "', phone='" . $phone . "', address='" . $address . "', referral='" . $referral . "' WHERE id='" . $userId . "'");
+$c->query("UDPATE users SET first_name='" . $firstName . "', last_name='" . $lastName . "', email='" . $email . "', phone='" . $phone . "', address='" . $address . "', referral='" . $referral . "' WHERE id='" . $userId . "'");
 echo 0;

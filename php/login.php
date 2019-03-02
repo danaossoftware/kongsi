@@ -1,11 +1,11 @@
 <?php
 include 'db.php';
-$email = $_POST["email"];
-$password = $_POST["password"];
-$results = $c->query("SELECT * FROM users WHERE email='" . $email . "'");
+$phone = $_POST["phone"];
+$pin = $_POST["pin"];
+$results = $c->query("SELECT * FROM users WHERE phone='" . $phone . "'");
 if ($results && $results->num_rows > 0) {
 	$row = $results->fetch_assoc();
-	if ($row["password"] != $password) {
+	if ($row["pin"] != $pin) {
 		echo -2;
 		return;
 	}

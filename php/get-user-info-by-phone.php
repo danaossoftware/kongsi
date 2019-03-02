@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
-$email = $_POST["email"];
-$results = $c->query("SELECT * FROM users WHERE email='" . $email . "'");
+$phone = $_POST["phone"];
+$results = $c->query("SELECT * FROM users WHERE phone='" . $phone . "'");
 if ($results && $results->num_rows > 0) {
 	$row = $results->fetch_assoc();
 	echo json_encode($row);

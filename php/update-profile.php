@@ -1,8 +1,6 @@
 <?php
 include 'db.php';
-session_id("kongsicargo");
-session_start();
-$userId = $_SESSION["kongsicargo_user_id"];
+$userId = $_POST["user_id"];
 $firstName = $_POST["first_name"];
 $lastName = $_POST["last_name"];
 $phone = $_POST["phone"];

@@ -1,8 +1,6 @@
 <?php
 include 'db.php';
-session_id("kongsicargo");
-session_start();
-$userId = $_SESSION["kongsicargo_user_id"];
+$userId = $_POST["user_id"];
 $fileName = $_POST["file_name"];
 $amount = intval($_POST["amount"]);
 $fileURL = "http://103.103.175.239/kongsi/userdata/imgs/" . $fileName;

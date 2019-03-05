@@ -1,8 +1,6 @@
 <?php
 include 'db.php';
-session_id("kongsicargo");
-session_start();
-$userId = $_SESSION["kongsicargo_user_id"];
+$userId = $_POST["user_id"];
 $fromLat = doubleval($_POST["from_lat"]);
 $fromLng = doubleval($_POST["from_lng"]);
 $toLat = doubleval($_POST["to_lat"]);

@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d646e18f-e26d-4c51-897f-bdace11840ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/add-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/add-order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/cancel-current-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/cancel-current-order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/cancel-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/cancel-order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/check-session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/clear-cancelled-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/clear-cancelled-order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/get-balance.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/get-balance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/get-history.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/get-history.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/get-last-messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/get-last-messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/get-my-user-info.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/get-my-user-info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/get-user-id.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/give-rating.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/give-rating.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/is-user-verified.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/is-user-verified.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/set-user-location.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/set-user-location.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/transfer-fund.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/transfer-fund.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/update-location.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/update-location.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/update-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/update-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/upload-identity-card.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/upload-identity-card.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/upload-proof.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/upload-proof.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/withdraw.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/withdraw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/check-user-exists-by-phone.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/check-user-exists-by-phone.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/php/cancel-order.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
+              <caret line="2" column="28" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -55,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/php/get-my-user-info.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
+              <caret line="2" column="28" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -69,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/get-user-info-by-phone.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -96,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/check-user-exists-by-phone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -166,6 +145,7 @@
         <option value="$PROJECT_DIR$/php/get-balance.php" />
         <option value="$PROJECT_DIR$/php/upload-proof.php" />
         <option value="$PROJECT_DIR$/php/get-user-password.php" />
+        <option value="$PROJECT_DIR$/php/check-user-exists-by-phone.php" />
       </list>
     </option>
   </component>
@@ -245,17 +225,18 @@
       <workItem from="1551521886905" duration="949000" />
       <workItem from="1551529222374" duration="121000" />
       <workItem from="1551762431121" duration="1379000" />
+      <workItem from="1551764428256" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9422000" />
+    <option name="totallyTimeSpent" value="9444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,27 +270,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/check-session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/get-user-id.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/check-session.php" />
+    <entry file="file://$PROJECT_DIR$/php/login.php" />
+    <entry file="file://$PROJECT_DIR$/php/get-user-id.php" />
     <entry file="file://$PROJECT_DIR$/php/find-user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -415,10 +378,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/get-user-password.php" />
     <entry file="file://$PROJECT_DIR$/php/cancel-order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="28" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -432,7 +396,7 @@
     <entry file="file://$PROJECT_DIR$/php/get-my-user-info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="28" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -440,6 +404,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/get-user-info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -457,31 +428,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/check-user-exists-by-phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/get-user-password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/get-user-info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/get-user-info-by-phone.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/check-user-exists-by-phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
         </state>
       </provider>
     </entry>

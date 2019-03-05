@@ -78,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/check-user-exists-by-phone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,9 +102,9 @@
       <find>kongsicargo_user_id</find>
       <find>kongsi_user_id</find>
       <find>password</find>
-      <find>phone</find>
       <find>email</find>
       <find>$_SESSION[&quot;</find>
+      <find>phone</find>
     </findStrings>
     <replaceStrings>
       <replace>$_SESSION[&quot;kongsicargo_user_id&quot;]</replace>
@@ -225,12 +225,12 @@
       <workItem from="1551521886905" duration="949000" />
       <workItem from="1551529222374" duration="121000" />
       <workItem from="1551762431121" duration="1379000" />
-      <workItem from="1551764428256" duration="22000" />
+      <workItem from="1551764428256" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9444000" />
+    <option name="totallyTimeSpent" value="9533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -437,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/check-user-exists-by-phone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>

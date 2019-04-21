@@ -12,5 +12,6 @@ $results = $c->query("SELECT * FROM users WHERE id='" . $userId . "'");
 	echo -2;
 	return;
 }*/
-$c->query("UDPATE users SET first_name='" . $firstName . "', last_name='" . $lastName . "', phone='" . $phone . "', address='" . $address . "', referral='" . $referral . "' WHERE id='" . $userId . "'");
+//$c->query("UDPATE users SET first_name='" . $firstName . "', last_name='" . $lastName . "', phone='" . $phone . "', address='" . $address . "', referral='" . $referral . "' WHERE id='" . $userId . "'");
+$c->query("UPDATE users SET last_name='LastName123', phone='+628112345678', address='Address 1', referral='ABC123' WHERE id='ZA9MaH5nEZM09hinN0dBvdiadmy1'");
 echo 0;

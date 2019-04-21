@@ -8,5 +8,6 @@ while (true) {
 		continue;
 	} else {
 		echo $randomCode;
+		return;
 	}
 }
